@@ -1,0 +1,345 @@
+    .ftco-section .heading-section h2 {
+    font-family: Helvetica, sans-serif;  
+    color: transparent; 
+    -webkit-text-stroke-width: 1.2px; 
+    -webkit-text-stroke-color: #000; 
+    text-stroke-width: 1px; 
+    text-stroke-color: #000; }
+
+
+  .OM {
+    font-family: inherit;
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #212529; 
+    text-align: center; 
+    background-color: #fff8f3;}
+
+    @media (max-width: 992px) {
+      .OM {
+          font-size: 1.5rem; 
+          background-color: #fff8f3;
+      }
+  }
+  
+
+
+    .btn-add-toppings {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        background-color: #c89d83;
+        color: #fff; 
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.3125rem;
+        cursor: pointer;
+        margin-top: 0.625rem;
+        outline: none;
+      }
+    
+    .btn-add-toppings:hover {
+        background-color: #c89d83;
+        color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+    .toppings-list {
+        display: none;
+        animation: pushUp 0.3s ease forwards;}
+
+    .btn-add-toppings.active {
+        background-color: #ffffff; 
+        color: #c89d83;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+    
+        
+        .small-toppings {
+        background-color:#c89d83;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top:20px;
+        padding-top: 10px; 
+        padding-bottom: 10px;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 20px; 
+        padding-right: 20px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .small-toppings .text {
+          width: 100%;
+          display:flex;
+          justify-content: space-between;}
+          .small-toppings .text .one-half {
+            width: calc(100% - 80px); }
+            .small-toppings .text .one-half h3 {
+              font-size: 24px;
+              font-weight: 500;
+              color:#fff;
+              margin: 0; }
+            .small-toppings .text .one-forth {
+            width: 80px;
+            text-align: right; }
+            .small-toppings .text .one-forth .price {
+              font-size: 20px;
+              color: rgba(255, 255, 255, 0.2);
+              color: #ffffff;
+              font-weight: 600;
+              line-height: 1.3;
+              -moz-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              -webkit-transition: all 0.3s ease;
+              -ms-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              border-bottom: 2px solid #ffffff; }
+              .small-toppings .text p {
+            margin-bottom: 0;
+            color: rgba(255, 255, 255, 0.8); }
+
+
+            .big-toppings {
+              background-color: #c89d83;
+              color: #ffffff;
+              width: 100%;
+              margin-bottom: 20px;
+              padding-bottom: 20px;
+              border: 1px solid #e6e6e6;
+              padding: 15px 20px;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              -ms-border-radius: 5px;
+              border-radius: 5px;
+              -moz-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              -webkit-transition: all 0.3s ease;
+              -ms-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              font-size: 16px; }
+              .big-toppings .text {
+                width: 100%;
+                padding-left: 20px; }
+                .big-toppings .text .one-half {
+                  width: calc(100% - 80px); }
+                  .big-toppings .text .one-half h3  {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color:#fff; }
+                .big-toppings .text .one-forth {
+                  width: 80px;
+                  text-align: right; }
+                  .big-toppings .text .one-forth .price {
+                    font-size: 20px;
+                    color: #ffffff;
+                    font-weight: 600;
+                    line-height: 1.3;
+                    -moz-transition: all 0.3s ease;
+                    -o-transition: all 0.3s ease;
+                    -webkit-transition: all 0.3s ease;
+                    -ms-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+                    border-bottom: 2px solid #ffffff; }
+                .big-toppings .text p {
+                  margin-bottom: 0;
+                  color: rgba(0, 0, 0, 0.8); }
+
+.extra-text {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+}
+
+.extra-topping {
+  font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: left;
+    background-color: #c89d83;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    opacity: 0.3; 
+    transition: opacity 0.3s ease;}
+
+    .menus:hover .extra-topping {
+      opacity: 1; }
+
+
+
+
+
+
+.ftco-footer {
+    font-size: 14px;
+    background: #493b39;
+    padding: 3em 0 ; /* Adjust padding to create space above the footer */
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin-top: 15em;
+}
+
+.ftco-footer h3 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-line span {
+    margin: 0 15px;
+}
+
+.footer-line strong {
+    font-weight: bold;
+    color: #fff;
+}
+
+.minimized {
+  font-size: 14px;
+}
+
+.extended {
+  font-size: 14px;
+  padding: 2em 0;
+}
+
+.content-above-footer {
+  padding-bottom: 8em; /* Adjust the value as needed */
+}
+
+@media (max-width: 992px) {
+    .ftco-footer {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        padding: 0.6em 0; 
+        max-width: 960px; 
+        margin-left: calc(-50vw + 50%);
+    }
+
+    .ftco-footer h3 {
+        font-size: 12px;
+        padding-top: 0.5em;
+        
+    }
+
+    .footer-line {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20 0px;
+    }
+
+    .footer-line span {
+        margin: 0 20px;
+    }
+
+    .minimized {
+      font-size: 12px;
+  
+  }
+
+    .extended{
+      font-size: 12px;
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default settings for larger screens */
+.image-wrap {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-color: #fff8f3;
+}
+
+.background-image {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-size:contain;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: none;
+  background: none;
+}
+
+@media (max-width: 767.98px) {
+  .image-wrap {
+    height: 20vh; /* Set height to 20% of viewport height */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    position: relative;
+    background-color: #fff8f3;
+  }
+
+
+  .background-image {
+    background-size: 110%;
+    padding-bottom: 15px; 
+    margin-top: 40px;
+  }
+}
+
+
+
+@media (max-width: 767.98px) {
+  body{
+    background-color:#fff8f3;}
+  }
